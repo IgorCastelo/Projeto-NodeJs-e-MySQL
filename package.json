@@ -1,0 +1,20 @@
+{
+  "name": "crud-produtos-node",
+  "version": "1.0.0",
+  "description": "Projeto full stack NodeJS e MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "express-handlebars",
+    "bootstrap",
+    "mysql"
+  ],
+  "author": "Igor Castelo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
