@@ -1,5 +1,4 @@
 //Importar modulo express
-const e = require('express');
 const express = require('express');
 
 //importar modulo  mysql
@@ -14,15 +13,9 @@ const conecxao = mysql.createConnection({
     user: 'root',
     password: '123456',
     database: 'projeto'
-});
+}) 
 
-//teste de conexão
-conecxao.connect((erro) => {
-    if (erro) throw erro;
-    console.log('Conexão efetuada com sucesso!');
-});
 
-//Rota Hello World
 app.get('/', (req, res)=>  {
     res.send('Utilizando o nodemon');
 });

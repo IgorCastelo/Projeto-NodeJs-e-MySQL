@@ -21,8 +21,7 @@ conecxao.connect((erro) => {
     if (erro) throw erro;
     console.log('Conexão efetuada com sucesso!');
 });
-
-//Rota Hello World
+//Rota H
 app.get('/', (req, res)=>  {
     res.send('Utilizando o nodemon');
 });

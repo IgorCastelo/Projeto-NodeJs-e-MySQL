@@ -18,11 +18,8 @@ const conecxao = mysql.createConnection({
 
 //teste de conexão
 conecxao.connect((erro) => {
-    if (erro) throw erro;
-    console.log('Conexão efetuada com sucesso!');
-});
+    if (erro) trow e
 
-//Rota Hello World
 app.get('/', (req, res)=>  {
     res.send('Utilizando o nodemon');
 });
